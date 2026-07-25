@@ -42,7 +42,7 @@ print("El precio total es:", final_price)
 age = 18
 has_license = True
 
-if age > 0 and has_license is True:
+if age > 19 and has_license is True:
     print("Está apto para conducir")
 else:
     print("No está apto para conducir")
@@ -53,7 +53,7 @@ age = 19
 has_license = True
 borracho = False
 
-if age > 18 and has_license is True and borracho is False:
+if age >= 18 and has_license is True and borracho is False:
     print("Puede conducir")
 else:
     print("No puede conducir el vehículo")
