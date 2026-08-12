@@ -11,4 +11,6 @@ print(company.title())
 
 print(company.swapcase())
 
+print(company.find("Coding"))
 
+print(company.replace("Coding", "Python"))

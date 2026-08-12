@@ -15,9 +15,9 @@ print(mensaje)
 
 number_one = 2
 number_two = 4
-resultado = str(number_one + number_two)
+resultado = number_one + number_two
 
-print("El resultado de su operación es: " + resultado)
+print("El resultado de su operación es: ", resultado)
 
 # EMPIEZA A CONTAR DESDE EL 0 LA FUNCIÓN 'FIND'
 
